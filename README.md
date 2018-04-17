@@ -7,6 +7,11 @@ goworker is a Resque-compatible, Go-based background worker. It allows you to pu
 
 goworker workers can run alongside Ruby Resque clients so that you can keep all but your most resource-intensive jobs in Ruby.
 
+## nubix fork
+
+This fork was originally created because the original package messes with command-line flag processing, and makes the package impractical to embed within a larger work.
+
+
 ## Installation
 
 To install goworker, use
